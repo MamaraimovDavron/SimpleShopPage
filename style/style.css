@@ -76,6 +76,14 @@
 .main--container .top .input-box {
   position: relative;
 }
+.main--container .top .input-box .input-box-line {
+  width: 50px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 350px;
+  top: 0px;
+}
 .main--container .top .input-box input {
   box-sizing: border-box;
   width: 333px;
