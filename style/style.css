@@ -5,7 +5,7 @@
 }
 
 .main--container {
-  margin: auto;
+  margin: 5px auto;
   width: 1440px;
   height: 1024px;
   box-shadow: 0px 0px 15px gray;
@@ -14,86 +14,89 @@
   justify-content: space-between;
 }
 .main--container .top {
-  width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
-  padding: 0px 10px;
 }
 .main--container .top .shop {
-  position: relative;
-  margin-left: 40px;
+  width: 163px;
+  height: 35px;
+  border-right: 2px solid;
 }
-.main--container .top .shop .shop-line {
-  width: 60px;
-  border: 1px solid #000000;
-  transform: rotate(90deg);
-  position: absolute;
-  left: 55px;
-  top: 0;
+.main--container .top .shop h3 {
+  line-height: 42px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
 }
 .main--container .top .discover {
-  position: relative;
-  padding-left: 10px;
-}
-.main--container .top .discover .discover-line {
-  width: 60px;
-  border: 1px solid #000000;
-  transform: rotate(90deg);
-  position: absolute;
-  left: 90px;
-  top: 0;
-}
-.main--container .top .company {
-  position: relative;
-  padding-left: 20px;
-}
-.main--container .top .company .company-line {
-  width: 60px;
-  border: 1px solid #000000;
-  transform: rotate(90deg);
-  position: absolute;
-  left: 320px;
-  top: 18px;
-}
-.main--container .top a {
-  text-decoration: none;
+  width: 163px;
+  height: 35px;
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
   text-align: center;
+  border-right: 2px solid;
   color: #000000;
+}
+.main--container .top .discover h3 {
+  line-height: 42px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+}
+.main--container .top .company {
+  width: 394px;
+  height: 35px;
 }
 .main--container .top .company h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 56px;
+  line-height: 35px;
   text-align: center;
   letter-spacing: 0.64em;
-  text-transform: uppercase;
   color: #000000;
+  border-right: 2px solid;
+  text-transform: uppercase;
 }
 .main--container .top .input-box {
+  width: 357px;
+  height: 35px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
   position: relative;
+  border-right: 2px solid;
 }
-.main--container .top .input-box .input-box-line {
-  width: 60px;
-  border: 1px solid #000000;
-  transform: rotate(90deg);
+.main--container .top .input-box a {
   position: absolute;
-  left: 325px;
-  top: 0px;
+  width: 19px;
+  height: 19px;
+  left: 33%;
+  top: 5%;
+  text-decoration: none;
+  color: black;
 }
 .main--container .top .input-box input {
   box-sizing: border-box;
   width: 333px;
   height: 29px;
-  background: #E7E7E7;
+  background-color: #E7E7E7;
   border: 1px solid #000000;
   border-radius: 48px;
 }
@@ -106,66 +109,67 @@
   text-align: center;
   color: #000000;
 }
-.main--container .top .input-box a {
-  position: absolute;
-  left: 105px;
-  font-weight: bold;
-}
 .main--container .top .cart {
-  position: relative;
-  padding-left: 25px;
+  width: 163px;
+  height: 35px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  border-right: 2px solid;
+  color: #000000;
 }
-.main--container .top .cart .cart-line {
-  width: 60px;
-  border: 1px solid #000000;
-  transform: rotate(90deg);
-  position: absolute;
-  left: 80px;
-  top: 0px;
-}
-.main--container .top .social-networks {
+.main--container .top .facebook {
+  width: 21.88px;
+  height: 35px;
   display: flex;
-  flex-direction: row;
-  gap: 25px;
-  justify-content: flex-end;
-  position: relative;
-  top: -5px;
+  justify-content: flex-start;
+  border-right: 2px solid;
+  align-items: center;
 }
-.main--container .top .social-networks .first-child {
-  margin-left: 20px;
+.main--container .top .facebook a {
+  text-decoration: none;
+  color: black;
+  line-height: 35px;
 }
-.main--container .top .social-networks .second-child {
-  margin-left: 25px;
+.main--container .top .instagram {
+  width: 21.89px;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  border-right: 2px solid;
+  align-items: center;
 }
-.main--container .top .social-networks .third-child {
-  margin-left: 20px;
+.main--container .top .instagram a {
+  text-decoration: none;
+  line-height: 35px;
+  color: black;
 }
-.main--container .top .social-networks .last-child {
-  margin-left: 20px;
+.main--container .top .heart {
+  width: 25px;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  border-right: 2px solid;
+  align-items: center;
 }
-.main--container .top .social-networks .facebook-line {
-  position: absolute;
-  width: 60px;
-  border: 2px solid;
-  transform: rotate(90deg);
-  left: 40px;
-  top: 5px;
+.main--container .top .heart a {
+  text-decoration: none;
+  line-height: 35px;
+  color: black;
 }
-.main--container .top .social-networks .instagram-line {
-  position: absolute;
-  width: 60px;
-  border: 2px solid;
-  transform: rotate(90deg);
-  left: 105px;
-  top: 5px;
+.main--container .top .circle {
+  width: 24.22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.main--container .top .social-networks .heart-line {
-  position: absolute;
-  width: 60px;
-  border: 2px solid;
-  transform: rotate(90deg);
-  left: 170px;
-  top: 5px;
+.main--container .top .circle a {
+  text-decoration: none;
+  line-height: 35px;
+  color: black;
 }
 .main--container .middle {
   display: flex;
@@ -376,4 +380,133 @@
 .main--container .middle .middle-right .dimensions a {
   font-size: 40px;
   color: black;
+}
+.main--container .footer {
+  display: flex;
+  width: 100%;
+}
+.main--container .footer .cart {
+  width: 163px;
+  height: 50px;
+  border-right: 2px solid #000000;
+}
+.main--container .footer .cart:hover h3 {
+  background-color: #000000;
+  transition: 0.5s;
+  color: #FFFFFF;
+}
+.main--container .footer .cart h3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.main--container .footer .overview {
+  width: 163px;
+  border-right: 2px solid #000000;
+  height: 50px;
+}
+.main--container .footer .overview:hover h3 {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.main--container .footer .overview h3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.main--container .footer .boutique {
+  width: 163px;
+  border-right: 2px solid #000000;
+  height: 50px;
+}
+.main--container .footer .boutique:hover h3 {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.main--container .footer .boutique h3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.main--container .footer .about {
+  width: 163px;
+  border-right: 2px solid #000000;
+  height: 50px;
+}
+.main--container .footer .about:hover h3 {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.main--container .footer .about h3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.main--container .footer .faq {
+  width: 163px;
+  border-right: 2px solid #000000;
+  height: 50px;
+}
+.main--container .footer .faq:hover h3 {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.main--container .footer .faq h3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.main--container .footer .item-section {
+  width: 625px;
+  height: 50px;
+}
+.main--container .footer .item-section:hover h3 {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.main--container .footer .item-section h3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
